@@ -32,11 +32,13 @@ regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second
 regions[help] = Help
 regions[highlighted] = Highlighted
+regions[social_links] = Social Links
 
 
 
 ;-------------- C S S -------------
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/fontello.css
 
 ;-------------- CSS FOAD -------------
 ;stylesheets[all][] = donteverloadmeagain.css

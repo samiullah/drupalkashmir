@@ -9,7 +9,11 @@
 <?php } ?>
 
 <?php print $mothership_poorthemers_helper; ?>
-
+<?php if ($page['social_links']): ?>
+     <div class="social-links">
+        <?php print render($page['social_links']); ?>
+    </div> <!-- /.social links -->
+<?php endif; ?>
 <header role="banner">
   <div class="siteinfo">
     <?php if ($logo): ?>
@@ -23,7 +27,7 @@
     <?php if($site_name OR $site_slogan ): ?>
     <hgroup>
       <?php if($site_name): ?>
-        <h1><?php print $site_name; ?></h1>
+        <h1 class="sitename"><?php print $site_name; ?></h1>
       <?php endif; ?>
       <?php if ($site_slogan): ?>
         <h2><?php print $site_slogan; ?></h2>
@@ -40,12 +44,13 @@
 
 </header>
 
+
 <div class="page">
 
   <div role="main" id="#main-content">
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>
-      <h1><?php print $title; ?></h1>
+      <h1 class="default_title"><?php print $title; ?></h1>
     <?php endif; ?>
     <?php print render($title_suffix); ?>
 
