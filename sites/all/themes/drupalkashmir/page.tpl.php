@@ -8,12 +8,14 @@
 <!--page.tpl.php-->
 <?php } ?>
 
-<?php print $mothership_poorthemers_helper; ?>
-<?php if ($page['social_links']): ?>
-     <div class="social-links">
-        <?php print render($page['social_links']); ?>
+ <?php print $mothership_poorthemers_helper; ?>
+
+  <?php if ($page['social_links']): ?>
+    <div class="social-links">
+      <?php print render($page['social_links']); ?>
     </div> <!-- /.social links -->
 <?php endif; ?>
+
 <header role="banner">
   <div class="siteinfo">
     <?php if ($logo): ?>

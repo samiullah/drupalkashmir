@@ -39,6 +39,11 @@ regions[social_links] = Social Links
 ;-------------- C S S -------------
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/fontello.css
+stylesheets[all][] = css/bootstrap/css/bootstrap.css
+stylesheets[all][] = css/bootstrap/css/bootstrap.min.css
+stylesheets[all][] = css/bootstrap/css/bootstrap.responsive.css
+stylesheets[all][] = css/bootstrap/css/bootstrap.responsive.min.css
+
 
 ;-------------- CSS FOAD -------------
 ;stylesheets[all][] = donteverloadmeagain.css
