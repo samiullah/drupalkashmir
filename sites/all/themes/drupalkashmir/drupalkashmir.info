@@ -1,5 +1,5 @@
 name = drupalkashmir
-description = Hi im drupalkashmir theme based on mothership  :)
+description = A drupal based open source community
 screenshot = screenshot.png
 engine = phptemplate
 core = 7.x
@@ -37,6 +37,7 @@ regions[social_links] = Social Links
 
 
 ;-------------- C S S -------------
+stylesheets[all][] = css/normalize.css
 stylesheets[all][] = css/style.css
 stylesheets[all][] = css/fontello.css
 
