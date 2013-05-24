@@ -6,3 +6,9 @@
 {
   display:none;
 }
+
+.siteinfo img
+{
+  width: 7%;
+  float: left;
+}
