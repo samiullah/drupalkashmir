@@ -653,7 +653,7 @@ figure {
   display: none;
 }
 
-.header-region nav, .header-region .div {
+.header-region nav, .header-region div {
   width: auto;
 }
 
