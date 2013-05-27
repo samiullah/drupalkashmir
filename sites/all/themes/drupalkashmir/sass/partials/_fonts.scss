@@ -1,3 +1,10 @@
+/*--------------*\
+  $BASE
+\*--------------*/
+$base-font-size: 16;
+$base-line-height: 24;
+$base-spacing-unit: $base-line-height;
+$half-base-spacing-unit: $base-line-height/2;
 // FONTS FAMILY
 
 $lato:  "lato", sans-serif;
@@ -19,3 +26,4 @@ $button: #ED5D3B;
 .f14 {
 	@include font-size(14);
 }
+
