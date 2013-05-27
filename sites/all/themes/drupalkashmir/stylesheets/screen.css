@@ -551,3 +551,6 @@ footer[role="contentinfo"] {
   margin: 0px;
   width: 100%;
 }
+footer[role="contentinfo"] li {
+  display: inline-block;
+}
