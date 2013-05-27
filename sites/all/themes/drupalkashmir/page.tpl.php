@@ -9,14 +9,7 @@
 <?php } ?>
 
  <?php print $mothership_poorthemers_helper; ?>
-
-  <?php if ($page['social_links']): ?>
-    <div class="social-links">
-      <?php print render($page['social_links']); ?>
-    </div> <!-- /.social links -->
-<?php endif; ?>
-
-<header role="banner">
+  <header role="banner">
   <div class="siteinfo">
     <?php if ($logo): ?>
       <figure>
@@ -95,7 +88,14 @@
   <?php endif; ?>
 </div><!--/page-->
 
+<?php if ($page['primary_footer']): ?>
+      <div class="primary_footer">
+        <?php print render($page['primary_footer']); ?>
+      </div> <!-- /.primary_footer-->
+    <?php endif; ?>
+
 <footer role="contentinfo">
   <?php print render($page['footer']); ?>
-</footer>
+ </footer>
+
 

@@ -27,12 +27,13 @@ regions[page_bottom] = Page Bottom
 
 ;-- Core Regions
 regions[header] = Header
+regions[primary_footer] = Primary Footer
 regions[footer] = Footer
 regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second
 regions[help] = Help
 regions[highlighted] = Highlighted
-regions[social_links] = Social Links
+
 
 
 
