@@ -653,17 +653,12 @@ figure {
   display: none;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-#mailchimp-newsletter-drupal_kashmir_newsletter div {
-  display: none;
-=======
-.header-region nav, .header-region .div {
-=======
 .header-region nav, .header-region div {
->>>>>>> 177cf99cd443d2e9d36dc01d651ca13e196e3c14
   width: auto;
->>>>>>> fefb39f156d0ed907648c413d2a8b094b6aab24a
+}
+
+.mailchimp-newsletter-wrapper div {
+  display: none;
 }
 
 header[role="banner"] {
