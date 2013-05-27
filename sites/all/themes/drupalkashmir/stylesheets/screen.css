@@ -664,6 +664,7 @@ header[role="banner"] {
   height: 4.2em;
 }
 header[role="banner"] .siteinfo {
+  -webkit-animation: bounceInDown 1s 1;
   padding: 0em 1em;
 }
 header[role="banner"] .siteinfo img {
