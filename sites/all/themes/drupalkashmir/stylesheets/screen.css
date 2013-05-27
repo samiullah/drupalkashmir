@@ -593,3 +593,9 @@ blockquote p:first-child {
 /*--------------*\
     $1/10
 \*--------------*/
+/* line 1, ../sass/extensions/_header.scss */
+header[role="banner"] {
+  margin: 0;
+  background: #4b4949;
+  width: 100%;
+}
