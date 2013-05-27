@@ -545,6 +545,10 @@ header[role="banner"] {
 header[role="banner"] .siteinfo {
   padding: 0em 1em;
 }
+header[role="banner"] .siteinfo img {
+  width: 80px;
+  height: auto;
+}
 
 footer[role="contentinfo"] {
   background: #4b4949;
@@ -553,4 +557,7 @@ footer[role="contentinfo"] {
 }
 footer[role="contentinfo"] li {
   display: inline-block;
+}
+footer[role="contentinfo"] p {
+  float: left;
 }

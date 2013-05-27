@@ -4,10 +4,14 @@ footer[role="contentinfo"]
   margin: 0px;
   width: 100%;
 
+     li{
+      display: inline-block;
+       }
 
-     li
-     { display: inline-block;
+     p{
+       float:left;
+      }
 
-     }
+
 }
 
