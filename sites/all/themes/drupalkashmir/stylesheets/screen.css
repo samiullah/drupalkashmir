@@ -607,4 +607,8 @@ header[role="banner"] {
 /* line 6, ../sass/extensions/_header.scss */
 header[role="banner"] .siteinfo {
   padding: 0em 1em;
+
+/* line 2, ../sass/extensions/_footer.scss */
+footer[role="contentinfo"] {
+  background: #4b4949;
 }
