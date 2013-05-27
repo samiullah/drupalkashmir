@@ -38,9 +38,8 @@ regions[highlighted] = Highlighted
 
 
 ;-------------- C S S -------------
-stylesheets[all][] = css/normalize.css
-stylesheets[all][] = css/style.css
-stylesheets[all][] = css/fontello.css
+stylesheets[all][] = stylesheets/screen.css
+
 
 ;-------------- CSS FOAD -------------
 ;stylesheets[all][] = donteverloadmeagain.css
