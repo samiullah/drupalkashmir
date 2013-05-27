@@ -680,6 +680,9 @@ header[role="banner"] .siteinfo img {
 .header-region .active {
   color: white;
 }
+.header-region [role="search"] {
+  padding: 0em 1em;
+}
 
 footer[role="contentinfo"] {
   background: #4b4949;
