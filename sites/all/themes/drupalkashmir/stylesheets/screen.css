@@ -653,6 +653,10 @@ figure {
   display: none;
 }
 
+.header-region nav, .header-region .div {
+  width: auto;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
