@@ -21,4 +21,8 @@ header[role="banner"] {
 	font-size: 1.2em;
 	font-weight: 700;
 	margin-top: 0.9em;
+
+	.active {
+		color: $white;
+	}
 }

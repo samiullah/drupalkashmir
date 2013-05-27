@@ -664,6 +664,9 @@ header[role="banner"] .siteinfo img {
   font-weight: 700;
   margin-top: 0.9em;
 }
+.header-region .active {
+  color: white;
+}
 
 footer[role="contentinfo"] {
   background: #4b4949;
@@ -672,4 +675,7 @@ footer[role="contentinfo"] {
 }
 footer[role="contentinfo"] li {
   display: inline-block;
+}
+footer[role="contentinfo"] p {
+  float: left;
 }
