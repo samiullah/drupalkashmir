@@ -653,8 +653,13 @@ figure {
   display: none;
 }
 
+<<<<<<< HEAD
 #mailchimp-newsletter-drupal_kashmir_newsletter div {
   display: none;
+=======
+.header-region nav, .header-region .div {
+  width: auto;
+>>>>>>> fefb39f156d0ed907648c413d2a8b094b6aab24a
 }
 
 header[role="banner"] {
