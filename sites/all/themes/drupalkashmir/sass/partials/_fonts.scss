@@ -1,1 +1,21 @@
-$headings:  "lato", sans-serif;
+// FONTS FAMILY
+
+$lato:  "lato", sans-serif;
+
+
+
+
+
+// FONT COLOR
+
+$white: #ffffff;
+$black: #000000;
+$text-color: #000000;
+$link: rgb(16, 165, 235);
+$button: #ED5D3B;
+
+// FONT COLOR
+
+.f14 {
+	@include font-size(14);
+}
