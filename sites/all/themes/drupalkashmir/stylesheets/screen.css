@@ -657,10 +657,6 @@ figure {
   width: auto;
 }
 
-.mailchimp-newsletter-wrapper div {
-  display: none;
-}
-
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
