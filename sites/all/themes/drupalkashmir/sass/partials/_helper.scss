@@ -1,0 +1,55 @@
+/*--------------*\
+  $CLEARFIX
+\*--------------*/
+// Nicolas Gallagher @necolas
+// http://nicolasgallagher.com/micro-clearfix-hack/
+
+.group:before,
+.group:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.group:after {
+  clear: both;
+}
+
+/*--------------*\
+  $TEXT-INDENT
+\*--------------*/
+// Scott Kellum @ScottKellum
+// http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+
+.hide-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*--------------*\
+  $FLOAT
+\*--------------*/
+
+.f-right{ float: right; }
+.f-left{ float: left; }
+
+/*--------------*\
+  $PULL
+\*--------------*/
+
+.pull10{ margin-left: -10px; }
+.pull35{ margin-left: -35px; }
+
+/*--------------*\
+  $PUSH
+\*--------------*/
+
+.push20{ padding: 0 20px; }
+
+/*--------------*\
+  $STATE
+\*--------------*/
+
+.is-visible{ display: block !important; }
+.is-hidden{ display: none; }
+

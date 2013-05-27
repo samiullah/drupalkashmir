@@ -1,0 +1,71 @@
+.grid{
+	@extend .group;
+	list-style:none;
+    margin:0 0 $half-base-spacing-unit 0;
+}
+
+/*--------------*\
+    $1/2
+\*--------------*/
+%one-whole { width: 100%; }
+%one-half { width: 50%; }
+
+
+/*--------------*\
+    $1/3
+\*--------------*/
+%one-third { width: 33.334%; }
+%two-third { width: 66.667%; }
+%one-third { width: 33.334%; }
+
+
+/*--------------*\
+    $1/4
+\*--------------*/
+%one-fourth { width: 25%; }
+%two-fourth { @extend %one-half; }
+%three-fourth { width: 75%; }
+
+
+/*--------------*\
+    $1/5
+\*--------------*/
+%one-fifth { width: 20%; }
+%two-fifth { width: 40%; }
+%three-fifth { width: 60%; }
+%four-fifth { width: 80%; }
+
+
+/*--------------*\
+    $1/6
+\*--------------*/
+%one-sixth { width: 16.667%; }
+%two-sixth { @extend %two-third; }
+%three-sixth { @extend %one-half; }
+%four-sixth { @extend %one-third; }
+%five-sixth { width: 83.334%; }
+
+
+/*--------------*\
+    $1/8
+\*--------------*/
+%one-eighth { width: 12.5%; }
+%two-eighth { @extend %one-fourth; }
+%three-eighth { width: 37.5%; }
+%four-eighth { @extend %one-half; }
+%five-eighth { width: 62.5%; }
+%six-eighth { @extend %three-fourth; }
+%seven-eighth { width: 87.5%; }
+
+/*--------------*\
+    $1/10
+\*--------------*/
+%one-tenth { width: 10%; }
+%two-tenth { @extend %one-fifth; }
+%three-tenth { width: 30%; }
+%four-tenth { @extend %two-fifth; }
+%five-tenth { @extend %one-half; }
+%six-tenth { @extend %three-fifth; }
+%seven-tenth { width: 70%; }
+%eight-tenth { @extend %four-fifth; }
+%nine-tenth { width: 90%; }
