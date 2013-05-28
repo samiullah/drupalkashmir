@@ -663,6 +663,13 @@ figure {
   display: block;
 }
 
+.page {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
