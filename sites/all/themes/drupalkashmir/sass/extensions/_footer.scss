@@ -3,6 +3,9 @@ footer[role="contentinfo"]
   background: rgb(75, 73, 73);
   margin: 0px;
   width: 100%;
+  position: relative;
+
+
 
      li{
       display: inline-block;
@@ -11,6 +14,7 @@ footer[role="contentinfo"]
      p{
        float:left;
        padding:0.5em 0em 0em 1em;
+       position: absolute;
       }
 
 
