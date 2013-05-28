@@ -701,4 +701,5 @@ footer[role="contentinfo"] li {
 }
 footer[role="contentinfo"] p {
   float: left;
+  padding: 0.25em 0em 0em 1em;
 }
