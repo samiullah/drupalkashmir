@@ -657,6 +657,14 @@ figure {
   width: auto;
 }
 
+#mailchimp-newsletter-drupal_kashmir_newsletter div {
+  display: none;
+}
+
+.form-required {
+  display: block;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
