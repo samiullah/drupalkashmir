@@ -670,6 +670,10 @@ figure {
   margin: 0;
 }
 
+#block-views-other-communities-block {
+  width: 33%;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
