@@ -660,8 +660,7 @@ figure {
 #mailchimp-newsletter-drupal_kashmir_newsletter div {
   display: none;
 }
-
-.form-required {
+#mailchimp-newsletter-drupal_kashmir_newsletter .form-required {
   display: block;
 }
 
