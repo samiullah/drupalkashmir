@@ -373,7 +373,6 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
 }
 
 html {
-  background: white;
   font-size: 100%;
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
@@ -664,11 +663,21 @@ figure {
   display: block;
 }
 
+.page {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
   width: 100%;
   height: 4.2em;
+  -moz-box-shadow: 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  box-shadow: 10px 10px 5px #888;
 }
 header[role="banner"] .siteinfo {
   -webkit-animation: bounceInDown 1s 1;
