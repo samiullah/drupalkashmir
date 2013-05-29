@@ -635,7 +635,7 @@ blockquote p:first-child {
   width: 100%;
 }
 
-#main-content {
+div[role="main"] {
   padding: 0;
 }
 
