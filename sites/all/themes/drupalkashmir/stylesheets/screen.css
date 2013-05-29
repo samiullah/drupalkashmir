@@ -713,6 +713,7 @@ header[role="banner"] {
   background: #18beff;
   padding: 5px;
   border-radius: 20px 0px 0px 20px;
+  z-index: 10;
 }
 
 header[role="banner"] {
