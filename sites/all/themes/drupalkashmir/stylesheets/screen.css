@@ -695,11 +695,6 @@ header[role="banner"] {
   width: 100%;
 }
 
-.front .banner {
-  position: relative;
-  margin-top: -2.8em;
-  z-index: -9;
-}
 .front .banner #block-block-6 {
   position: absolute;
   z-index: 9;
@@ -717,6 +712,7 @@ header[role="banner"] {
 }
 
 header[role="banner"] {
+  position: relative;
   margin: 0;
   background: #4b4949;
   width: 100%;
@@ -726,6 +722,7 @@ header[role="banner"] {
   box-shadow: 0px 5px 5px #888;
 }
 header[role="banner"] .siteinfo {
+  position: absolute;
   -webkit-animation: bounceInDown 1s 1;
   padding: 0em 1em;
 }
