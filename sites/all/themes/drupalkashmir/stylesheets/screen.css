@@ -695,6 +695,24 @@ header[role="banner"] {
   width: 100%;
 }
 
+.front .banner {
+  position: relative;
+}
+.front .banner #block-block-6 {
+  position: absolute;
+  z-index: 9;
+  color: white;
+  padding-top: 5em;
+  font-size: 29px;
+  right: 0;
+}
+.front .banner #block-block-6 p {
+  text-transform: uppercase;
+  background: #18beff;
+  padding: 5px;
+  border-radius: 20px 0px 0px 20px;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;

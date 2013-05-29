@@ -64,3 +64,26 @@ border-bottom: none;
 }
 
 
+//FRONT PAGE 
+.front {
+  .banner {
+    position: relative;
+
+    #block-block-6 {
+      position: absolute;
+      z-index: 9;
+      color: white;
+      padding-top: 5em;
+      font-size: 29px;
+      right: 0;
+
+      p {
+        text-transform: uppercase;
+        background: $brand;
+        padding: 5px;
+        border-radius: 20px 0px 0px 20px;
+
+      }
+    }
+  }
+}
