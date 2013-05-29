@@ -697,6 +697,8 @@ header[role="banner"] {
 
 .front .banner {
   position: relative;
+  margin-top: -2.4em;
+  z-index: -9;
 }
 .front .banner #block-block-6 {
   position: absolute;

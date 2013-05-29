@@ -68,6 +68,8 @@ border-bottom: none;
 .front {
   .banner {
     position: relative;
+    margin-top: -2.4em;
+    z-index: -9;
 
     #block-block-6 {
       position: absolute;
