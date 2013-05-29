@@ -665,28 +665,27 @@ header[role="banner"] {
   border-bottom: none;
 }
 
-<<<<<<< HEAD
-#block-views-other-communities-block {
-  width: 33%;
-}
-
-#block-mailchimp-lists-drupal-kashmir-newsletter {
-  width: 33%;
-=======
 .edit-actions {
   margin: 0;
 }
 
 .form-item, .form-actions {
   margin: 0;
->>>>>>> 2e76d890d921d7c3b1df12048a957d1eaa06b842
+}
+
+#block-views-other-communities-block {
+  width: 33%;
+}
+
+#block-mailchimp-lists-drupal-kashmir-newsletter {
+  width: 33%;
 }
 
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
   width: 100%;
-  height: 4.2em;
+  height: 5.2em;
   -moz-box-shadow: 10px 10px 5px #888;
   -webkit-box-shadow: 10px 10px 5px #888;
   box-shadow: 10px 10px 5px #888;
