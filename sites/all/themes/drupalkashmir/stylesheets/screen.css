@@ -675,10 +675,12 @@ header[role="banner"] {
 
 #block-views-other-communities-block {
   width: 33%;
+  float: left;
 }
 
 #block-mailchimp-lists-drupal-kashmir-newsletter {
   width: 33%;
+  float: right;
 }
 
 header[role="banner"] {
