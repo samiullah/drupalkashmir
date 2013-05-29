@@ -85,4 +85,13 @@ border-bottom: none;
       }
     }
   }
+  .views-slideshow-cycle-main-frame-row-item {
+    position: relative;
+
+    .views-field-field-slide-text {
+      position: absolute;
+      bottom: 0;
+      padding: 4em;
+    }
+  }
 }

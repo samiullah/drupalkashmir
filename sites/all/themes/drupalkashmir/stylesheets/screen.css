@@ -710,6 +710,14 @@ header[role="banner"] {
   border-radius: 20px 0px 0px 20px;
   z-index: 10;
 }
+.front .views-slideshow-cycle-main-frame-row-item {
+  position: relative;
+}
+.front .views-slideshow-cycle-main-frame-row-item .views-field-field-slide-text {
+  position: absolute;
+  bottom: 0;
+  padding: 4em;
+}
 
 header[role="banner"] {
   position: relative;
