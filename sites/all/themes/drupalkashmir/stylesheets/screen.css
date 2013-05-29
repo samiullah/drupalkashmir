@@ -428,15 +428,6 @@ blockquote p:first-child {
   margin: 0 !important;
 }
 
-.btn {
-  border: none;
-  background: #ed5d3b;
-  color: white;
-  font-family: "lato", sans-serif;
-  padding: .5em 1em;
-  line-height: 1;
-}
-
 .item-list img {
   vertical-align: baseline;
 }
@@ -674,12 +665,21 @@ header[role="banner"] {
   border-bottom: none;
 }
 
+<<<<<<< HEAD
 #block-views-other-communities-block {
   width: 33%;
 }
 
 #block-mailchimp-lists-drupal-kashmir-newsletter {
   width: 33%;
+=======
+.edit-actions {
+  margin: 0;
+}
+
+.form-item, .form-actions {
+  margin: 0;
+>>>>>>> 2e76d890d921d7c3b1df12048a957d1eaa06b842
 }
 
 header[role="banner"] {
@@ -712,7 +712,21 @@ header[role="banner"] .siteinfo img {
   padding: 0em 1em;
 }
 .header-region [role="search"] input[type="text"] {
-  width: 50%;
+  border: 1px solid #18beff;
+  background: #CECECE;
+  padding: 5px;
+  border-radius: 20px;
+}
+.header-region [role="search"] input[type="submit"] {
+  margin-left: -71px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  background: #18beff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
 }
 
 footer[role="contentinfo"] {
