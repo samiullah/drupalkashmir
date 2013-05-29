@@ -669,6 +669,10 @@ header[role="banner"] {
   margin: 0;
 }
 
+.form-item, .form-actions {
+  margin: 0;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
@@ -700,7 +704,6 @@ header[role="banner"] .siteinfo img {
 }
 .header-region [role="search"] input[type="text"] {
   border: 1px solid #18beff;
-  width: 50%;
   background: #CECECE;
   padding: 5px;
   border-radius: 20px;
