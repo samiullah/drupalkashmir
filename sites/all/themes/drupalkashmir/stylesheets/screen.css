@@ -428,15 +428,6 @@ blockquote p:first-child {
   margin: 0 !important;
 }
 
-.btn {
-  border: none;
-  background: #ed5d3b;
-  color: white;
-  font-family: "lato", sans-serif;
-  padding: .5em 1em;
-  line-height: 1;
-}
-
 .item-list img {
   vertical-align: baseline;
 }
@@ -674,6 +665,10 @@ header[role="banner"] {
   border-bottom: none;
 }
 
+.edit-actions {
+  margin: 0;
+}
+
 header[role="banner"] {
   margin: 0;
   background: #4b4949;
@@ -704,7 +699,22 @@ header[role="banner"] .siteinfo img {
   padding: 0em 1em;
 }
 .header-region [role="search"] input[type="text"] {
+  border: 1px solid #18beff;
   width: 50%;
+  background: #CECECE;
+  padding: 5px;
+  border-radius: 20px;
+}
+.header-region [role="search"] input[type="submit"] {
+  margin-left: -71px;
+  padding: 8px;
+  border: 0;
+  border-radius: 20px;
+  background: #18beff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
 }
 
 footer[role="contentinfo"] {

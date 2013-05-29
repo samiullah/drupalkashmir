@@ -32,9 +32,24 @@ header[role="banner"] {
 
 	[role="search"] {
 		padding: 0em 1em;
-		
+
 		input[type="text"] {
+			border: 1px solid rgb(24, 190, 255);
 			width: 50%;
+			background: #CECECE;
+			padding: 5px;
+			border-radius: 20px;
+		}
+		input[type="submit"] {
+			margin-left: -71px;
+			padding: 8px;
+			border: 0;
+			border-radius: 20px;
+			background: rgb(24, 190, 255);
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 700;
+			color: white;
 		}
 	}
 }
