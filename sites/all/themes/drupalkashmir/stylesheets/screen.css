@@ -631,6 +631,14 @@ blockquote p:first-child {
 /*--------------*\
     $1/10
 \*--------------*/
+.page {
+  width: 100%;
+}
+
+#main-content {
+  padding: 0;
+}
+
 figure {
   margin: 0;
 }
@@ -681,6 +689,10 @@ header[role="banner"] {
 #block-mailchimp-lists-drupal-kashmir-newsletter {
   width: 33%;
   float: right;
+}
+
+#views_slideshow_cycle_teaser_section_home_slideshow-block, #views_slideshow_cycle_div_home_slideshow-block_0 {
+  width: 100%;
 }
 
 header[role="banner"] {
