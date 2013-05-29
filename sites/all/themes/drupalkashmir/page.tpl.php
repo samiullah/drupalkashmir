@@ -49,13 +49,7 @@
     <?php endif; ?>
     <?php print render($title_suffix); ?>
 
-    <?php if ($page['banner']): ?>
-      <div class="banner">
-        <?php print render($page['banner']); ?>
-      </div> <!-- /.banner-->
-    <?php endif; ?>
-
-    <?php print $breadcrumb; ?>
+       <?php print $breadcrumb; ?>
 
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
@@ -72,6 +66,12 @@
       </div>
     <?php } ?>
 
+    <?php if ($page['banner']): ?>
+      <div class="banner">
+        <?php print render($page['banner']); ?>
+      </div> <!-- /.banner-->
+    <?php endif; ?>
+
 
     <?php print render($page['content_pre']); ?>
 
@@ -80,6 +80,7 @@
     <?php print render($page['content_post']); ?>
 
   </div><!--/main-->
+
 
   <?php if ($page['sidebar_first']): ?>
     <div class="sidebar-first">
