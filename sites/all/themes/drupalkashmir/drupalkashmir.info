@@ -33,6 +33,8 @@ regions[sidebar_first] = Sidebar First
 regions[sidebar_second] = Sidebar Second
 regions[help] = Help
 regions[highlighted] = Highlighted
+regions[banner] = Banner
+
 
 
 

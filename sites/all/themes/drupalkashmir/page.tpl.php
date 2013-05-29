@@ -49,6 +49,12 @@
     <?php endif; ?>
     <?php print render($title_suffix); ?>
 
+    <?php if ($page['banner']): ?>
+      <div class="banner">
+        <?php print render($page['banner']); ?>
+      </div> <!-- /.banner-->
+    <?php endif; ?>
+
     <?php print $breadcrumb; ?>
 
     <?php if ($action_links): ?>
