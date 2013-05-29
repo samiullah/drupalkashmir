@@ -66,6 +66,12 @@
       </div>
     <?php } ?>
 
+    <?php if ($page['banner']): ?>
+      <div class="banner">
+        <?php print render($page['banner']); ?>
+      </div> <!-- /.banner-->
+    <?php endif; ?>
+
 
     <?php print render($page['content_pre']); ?>
 
@@ -75,11 +81,6 @@
 
   </div><!--/main-->
 
-   <?php if ($page['banner']): ?>
-      <div class="banner">
-        <?php print render($page['banner']); ?>
-      </div> <!-- /.banner-->
-    <?php endif; ?>
 
   <?php if ($page['sidebar_first']): ?>
     <div class="sidebar-first">
