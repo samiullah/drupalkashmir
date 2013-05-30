@@ -50,6 +50,7 @@ header[role="banner"] {
 
 		input[type="text"] {
 			@extend .f-left;
+			margin-top: -1em;
 			border: 1px solid $brand;
 			background: #CECECE;
 			padding: 5px;
@@ -57,6 +58,7 @@ header[role="banner"] {
 		}
 		input[type="submit"] {
 			padding: 8px;
+			margin-top: -1.5em;
 			border: 0;
 			border-radius: 20px;
 			background: $brand;
