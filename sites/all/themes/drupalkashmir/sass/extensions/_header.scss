@@ -46,7 +46,6 @@ header[role="banner"] {
 
 	[role="search"] {
 		@extend .f-right;
-		padding: 0em 1em;
 
 		input[type="text"] {
 			border: 1px solid $brand;
@@ -55,7 +54,6 @@ header[role="banner"] {
 			border-radius: 20px;
 		}
 		input[type="submit"] {
-			margin-left: -71px;
 			padding: 8px;
 			border: 0;
 			border-radius: 20px;

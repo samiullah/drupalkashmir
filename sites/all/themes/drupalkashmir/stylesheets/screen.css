@@ -751,9 +751,6 @@ header[role="banner"] .siteinfo img {
 .header-region .active {
   color: white;
 }
-.header-region [role="search"] {
-  padding: 0em 1em;
-}
 .header-region [role="search"] input[type="text"] {
   border: 1px solid #18beff;
   background: #CECECE;
@@ -761,7 +758,6 @@ header[role="banner"] .siteinfo img {
   border-radius: 20px;
 }
 .header-region [role="search"] input[type="submit"] {
-  margin-left: -71px;
   padding: 8px;
   border: 0;
   border-radius: 20px;
