@@ -568,7 +568,7 @@ blockquote p:first-child {
 /*--------------*\
   $FLOAT
 \*--------------*/
-.f-right, .header-region, .header-region [role="search"] {
+.f-right, .header-region {
   float: right;
 }
 

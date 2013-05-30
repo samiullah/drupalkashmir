@@ -45,7 +45,6 @@ header[role="banner"] {
 	}
 
 	[role="search"] {
-		@extend .f-right;
 
 		input[type="text"] {
 			border: 1px solid $brand;
