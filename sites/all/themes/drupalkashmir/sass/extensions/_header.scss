@@ -46,6 +46,7 @@ header[role="banner"] {
 
 	[role="search"] {
 		@extend .f-left;
+		position: relative;
 
 		input[type="text"] {
 			@extend .f-left;
@@ -63,6 +64,8 @@ header[role="banner"] {
 			font-size: 14px;
 			font-weight: 700;
 			color: white;
+			position: absolute;
+			right: 0;
 		}
 	}
 }

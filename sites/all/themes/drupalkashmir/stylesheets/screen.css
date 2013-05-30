@@ -751,6 +751,9 @@ header[role="banner"] .siteinfo img {
 .header-region .active {
   color: white;
 }
+.header-region [role="search"] {
+  position: relative;
+}
 .header-region [role="search"] input[type="text"] {
   border: 1px solid #18beff;
   background: #CECECE;
@@ -766,6 +769,8 @@ header[role="banner"] .siteinfo img {
   font-size: 14px;
   font-weight: 700;
   color: white;
+  position: absolute;
+  right: 0;
 }
 
 footer[role="contentinfo"] {
