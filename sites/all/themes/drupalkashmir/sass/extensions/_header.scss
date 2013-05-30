@@ -31,6 +31,13 @@ header[role="banner"] {
 
 	#block-system-main-menu {
 		@extend .f-left;
+
+		.menu {
+			li {
+				list-style: none;
+				@extend .f-left;
+			}
+		}
 	}
 
 	.active {
