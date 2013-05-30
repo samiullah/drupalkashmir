@@ -1,68 +1,13 @@
-//  Nullfication of some  mothership theme styles
-/**.page {
-  width: 100%;
-}
-div[role="main"] {
-  padding: 0;
-}
-figure {
-	margin: 0;
-}
-
-.default_title {
-	display: none;
-}
-
-#first-time {
-	display: none;
-}
-.header-region {
-	nav, div { width: auto; }
-}
-
-#mailchimp-newsletter-drupal_kashmir_newsletter{
-  div
-  {
-    display: none;
-  }
-
-  .form-required{
-    display: block;
+.front {
+  .page {
+    #main-content {
+      .default-title {
+        display: none;
+      }
+    }
   }
 }
 
-//Page mothership theme nullification
-.page {
-  background: transparent;
-  border: none;
-  padding: 0;
-  margin: 0;
-}
-header[role="banner"] {
-border-bottom: none;
-}
-.edit-actions {
-  margin: 0;
-}
-.form-item, .form-actions {
-  margin: 0;
-}
-
-#block-views-other-communities-block
-{
-  width: 33%;
-  float: left;
-}
-
-#block-mailchimp-lists-drupal-kashmir-newsletter{
-  width: 33%;
-  float: right;
-}
-//Homepage banner
-#views_slideshow_cycle_teaser_section_home_slideshow-block, #views_slideshow_cycle_div_home_slideshow-block_0 {
-  width: 100%;
-}
-*/
 
 //FRONT PAGE 
 .front {

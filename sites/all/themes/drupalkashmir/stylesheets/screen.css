@@ -631,6 +631,10 @@ blockquote p:first-child {
 /*--------------*\
     $1/10
 \*--------------*/
+.front .page #main-content .default-title {
+  display: none;
+}
+
 .front .banner #block-block-6 {
   position: absolute;
   z-index: 9;
