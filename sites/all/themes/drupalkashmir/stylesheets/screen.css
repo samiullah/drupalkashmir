@@ -631,7 +631,7 @@ blockquote p:first-child {
 /*--------------*\
     $1/10
 \*--------------*/
-.front .page #main-content h1 {
+.front .page [role="main"] h1 {
   display: none;
 }
 
