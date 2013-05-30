@@ -572,7 +572,7 @@ blockquote p:first-child {
   float: right;
 }
 
-.f-left, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li {
+.f-left, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
   float: left;
 }
 

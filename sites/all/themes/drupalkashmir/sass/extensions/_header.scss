@@ -45,8 +45,10 @@ header[role="banner"] {
 	}
 
 	[role="search"] {
+		@extend .f-left;
 
 		input[type="text"] {
+			@extend .f-left;
 			border: 1px solid $brand;
 			background: #CECECE;
 			padding: 5px;
