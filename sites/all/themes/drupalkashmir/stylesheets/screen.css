@@ -568,11 +568,11 @@ blockquote p:first-child {
 /*--------------*\
   $FLOAT
 \*--------------*/
-.f-right, .header-region {
+.f-right, .header-region, .header-region [role="search"] {
   float: right;
 }
 
-.f-left {
+.f-left, .header-region #block-system-main-menu {
   float: left;
 }
 

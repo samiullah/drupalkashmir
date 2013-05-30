@@ -29,11 +29,16 @@ header[role="banner"] {
 	font-weight: 700;
 	margin-top: 0.9em;
 
+	#block-system-main-menu {
+		@extend .f-left;
+	}
+
 	.active {
 		color: $white;
 	}
 
 	[role="search"] {
+		@extend .f-right;
 		padding: 0em 1em;
 
 		input[type="text"] {
