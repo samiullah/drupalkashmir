@@ -12,14 +12,6 @@
 .front {
   .banner {
 
-    #block-block-6 {
-      position: absolute;
-      z-index: 9;
-      color: white;
-      padding-top: 5em;
-      font-size: 29px;
-      right: 0;
-
       p {
         text-transform: uppercase;
         background: $brand;
@@ -28,7 +20,7 @@
         z-index: 10;
       }
     }
-  }
+    
   .views-slideshow-cycle-main-frame-row-item {
     position: relative;
 

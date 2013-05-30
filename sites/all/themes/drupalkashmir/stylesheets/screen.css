@@ -635,15 +635,7 @@ blockquote p:first-child {
   display: none;
 }
 
-.front .banner #block-block-6 {
-  position: absolute;
-  z-index: 9;
-  color: white;
-  padding-top: 5em;
-  font-size: 29px;
-  right: 0;
-}
-.front .banner #block-block-6 p {
+.front .banner p {
   text-transform: uppercase;
   background: #18beff;
   padding: 5px;
