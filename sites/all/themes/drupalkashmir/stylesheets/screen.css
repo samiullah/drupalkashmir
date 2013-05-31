@@ -540,7 +540,14 @@ blockquote p:first-child {
   animation-name: bounceInDown;
 }
 
-.btn, .header-region [role="search"] input[type="submit"] {
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -690,6 +697,16 @@ blockquote p:first-child {
   border-radius: 1em;
   text-align: center;
 }
+.front #block-mailchimp-lists-drupal-kashmir-newsletter {
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  right: 0;
+  margin-right: 4em;
+}
+.front #block-mailchimp-lists-drupal-kashmir-newsletter h2 {
+  display: none;
+}
 
 header[role="banner"] {
   position: relative;
@@ -736,7 +753,15 @@ header[role="banner"] .siteinfo img {
 .header-region [role="search"] input[type="submit"] {
   padding: 8px;
   margin-top: -1.2em;
+  border: 0;
   border-radius: 20px;
+  background: #18beff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  position: absolute;
+  right: 0;
 }
 
 footer[role="contentinfo"] {
