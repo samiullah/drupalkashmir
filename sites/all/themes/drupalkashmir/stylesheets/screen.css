@@ -609,7 +609,7 @@ blockquote p:first-child {
   float: right;
 }
 
-.f-left, .front #block-block-7 ul li, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
+.f-left, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
   float: left;
 }
 
@@ -710,6 +710,9 @@ blockquote p:first-child {
 }
 .front #block-block-7 ul {
   margin: 0em 2em;
+}
+.front #block-block-7 ul li {
+  width: 33%;
 }
 
 header[role="banner"] {
