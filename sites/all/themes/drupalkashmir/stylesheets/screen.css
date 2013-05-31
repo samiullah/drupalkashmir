@@ -697,13 +697,6 @@ blockquote p:first-child {
   border-radius: 1em;
   text-align: center;
 }
-.front #block-mailchimp-lists-drupal-kashmir-newsletter {
-  position: absolute;
-  bottom: 0;
-  z-index: 3;
-  right: 0;
-  margin-right: 4em;
-}
 .front #block-mailchimp-lists-drupal-kashmir-newsletter h2 {
   display: none;
 }
