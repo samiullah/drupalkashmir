@@ -541,13 +541,6 @@ blockquote p:first-child {
 }
 
 .btn, .header-region [role="search"] input[type="submit"] {
-  display: inline-block;
-  *display: inline;
-  padding: 4px 12px;
-  margin-bottom: 0;
-  *margin-left: .3em;
-  font-size: 14px;
-  line-height: 20px;
   color: #333333;
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
@@ -741,7 +734,9 @@ header[role="banner"] .siteinfo img {
   border-radius: 20px;
 }
 .header-region [role="search"] input[type="submit"] {
+  padding: 8px;
   margin-top: -1.2em;
+  border-radius: 20px;
 }
 
 footer[role="contentinfo"] {
