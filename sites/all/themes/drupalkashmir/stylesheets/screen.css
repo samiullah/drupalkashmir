@@ -672,10 +672,6 @@ blockquote p:first-child {
   display: none;
 }
 
-.breadcrumb {
-  display: none;
-}
-
 .front .banner p {
   text-transform: uppercase;
   background: #18beff;
