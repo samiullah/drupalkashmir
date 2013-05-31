@@ -719,6 +719,10 @@ blockquote p:first-child {
   width: 33%;
 }
 
+.node-blog {
+  margin-top: 3.5em;
+}
+
 header[role="banner"] {
   position: relative;
   margin: 0;
