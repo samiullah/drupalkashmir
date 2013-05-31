@@ -60,6 +60,7 @@
       margin: 0em 2em;
       li {
         width: 33%;
+        @extend .f-left;
       }
     }
   }

@@ -609,7 +609,7 @@ blockquote p:first-child {
   float: right;
 }
 
-.f-left, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
+.f-left, .front #block-block-7 ul li, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
   float: left;
 }
 
