@@ -672,6 +672,10 @@ blockquote p:first-child {
   display: none;
 }
 
+.breadcrumb {
+  display: none;
+}
+
 .front .banner p {
   text-transform: uppercase;
   background: #18beff;
@@ -713,6 +717,10 @@ blockquote p:first-child {
 }
 .front #block-block-7 ul li {
   width: 33%;
+}
+
+.node-blog {
+  margin-top: 3.5em;
 }
 
 header[role="banner"] {
