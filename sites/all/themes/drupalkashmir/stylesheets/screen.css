@@ -711,9 +711,6 @@ blockquote p:first-child {
 .front #block-block-7 ul {
   margin: 0em 2em;
 }
-.front #block-block-7 ul li {
-  width: 33%;
-}
 
 header[role="banner"] {
   position: relative;
