@@ -42,9 +42,19 @@
     }
   }
   #block-mailchimp-lists-drupal-kashmir-newsletter  {
-    
+
     h2 {
       display: none;
+    }
+  }
+  .block-block-7 {
+    h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      font-weight: bold;
+      border-bottom: 1px solid #cecece;
+      margin:  0em 1em;
     }
   }
 }
