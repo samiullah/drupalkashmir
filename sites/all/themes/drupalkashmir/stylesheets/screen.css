@@ -540,6 +540,43 @@ blockquote p:first-child {
   animation-name: bounceInDown;
 }
 
+.btn {
+  display: inline-block;
+  *display: inline;
+  padding: 4px 12px;
+  margin-bottom: 0;
+  *margin-left: .3em;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  *background-color: #e6e6e6;
+  background-image: -moz-linear-gradient(top, white, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, white, #e6e6e6);
+  background-image: -o-linear-gradient(top, white, #e6e6e6);
+  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  border: 1px solid #cccccc;
+  *border: 0;
+  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  border-bottom-color: #b3b3b3;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  *zoom: 1;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
 /*--------------*\
   $CLEARFIX
 \*--------------*/
@@ -572,7 +609,7 @@ blockquote p:first-child {
   float: right;
 }
 
-.f-left, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
+.f-left, .front #block-block-7 ul li, .header-region #block-system-main-menu, .header-region #block-system-main-menu .menu li, .header-region [role="search"], .header-region [role="search"] input[type="text"] {
   float: left;
 }
 
@@ -631,19 +668,11 @@ blockquote p:first-child {
 /*--------------*\
     $1/10
 \*--------------*/
-.front .page [role="main"] h1 {
+.page [role="main"] h1 {
   display: none;
 }
 
-.front .banner #block-block-6 {
-  position: absolute;
-  z-index: 9;
-  color: white;
-  padding-top: 5em;
-  font-size: 29px;
-  right: 0;
-}
-.front .banner #block-block-6 p {
+.front .banner p {
   text-transform: uppercase;
   background: #18beff;
   padding: 5px;
@@ -657,6 +686,33 @@ blockquote p:first-child {
   position: absolute;
   bottom: 0;
   padding: 4em;
+}
+.front .views-slideshow-cycle-main-frame-row-item .views-field-field-slide-text .field-content {
+  width: 30%;
+  background: black;
+  color: white;
+  height: 8.5em;
+  padding: 0.3em 1em;
+  overflow: hidden;
+  border-radius: 1em;
+  text-align: center;
+}
+.front #block-mailchimp-lists-drupal-kashmir-newsletter h2 {
+  display: none;
+}
+.front #block-block-7 .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-bottom: 1px solid #cecece;
+  margin: 0em 1em;
+}
+.front #block-block-7 ul {
+  margin: 0em 2em;
+}
+.front #block-block-7 ul li {
+  width: 33%;
 }
 
 header[role="banner"] {
@@ -703,7 +759,7 @@ header[role="banner"] .siteinfo img {
 }
 .header-region [role="search"] input[type="submit"] {
   padding: 8px;
-  margin-top: -1.5em;
+  margin-top: -1.2em;
   border: 0;
   border-radius: 20px;
   background: #18beff;
@@ -719,7 +775,6 @@ footer[role="contentinfo"] {
   background: #4b4949;
   margin: 0px;
   width: 100%;
-  position: relative;
 }
 footer[role="contentinfo"] li {
   display: inline-block;
@@ -727,5 +782,4 @@ footer[role="contentinfo"] li {
 footer[role="contentinfo"] p {
   float: left;
   padding: 0.5em 0em 0em 1em;
-  position: absolute;
 }
