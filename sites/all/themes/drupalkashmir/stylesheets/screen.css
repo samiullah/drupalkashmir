@@ -700,7 +700,7 @@ blockquote p:first-child {
 .front #block-mailchimp-lists-drupal-kashmir-newsletter h2 {
   display: none;
 }
-.front .block-block-7 h2 {
+.front .block-block-7 .title {
   text-align: center;
   text-transform: uppercase;
   font-size: 1.5em;
