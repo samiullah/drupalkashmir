@@ -1,0 +1,69 @@
+/*--------------*\
+  $BASE
+\*--------------*/
+$base-font-size: 16;
+$base-line-height: 24;
+$base-spacing-unit: $base-line-height;
+$half-base-spacing-unit: $base-line-height/2;
+
+/*--------------*\
+  $HEADINGS
+\*--------------*/
+.giga {
+    @include font-size(96);
+}
+.mega {
+    @include font-size(72);
+}
+
+.kilo {
+    @include font-size(48);
+}
+
+h1,
+.alpha {
+    @include font-size(36);
+}
+
+h2,
+.beta,
+.page-title {
+    @include font-size(32);
+}
+
+h3,
+.gamma,
+.entry-title {
+    @include font-size(24);
+}
+
+h4,
+.delta,
+.content-title {
+    @include font-size(20);
+}
+
+h5,
+.epsilon,
+.body-text {
+    @include font-size(16);
+}
+
+h6,
+.zeta {
+    @include font-size(14);
+}
+
+.milli {
+    @include font-size(12);
+}
+
+.micro {
+    @include font-size(10);
+}
+
+/*--------------*\
+  $TYPEFACE
+\*--------------*/
+$sans-serif: "proxima-nova", sans-serif;
+$serif: "rooney-web", serif;

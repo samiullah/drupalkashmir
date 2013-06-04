@@ -1,0 +1,23 @@
+/*--------------*\
+  $H-NAV
+\*--------------*/
+%nav{
+    & > ul{
+        padding: 0;
+        & > li{
+            display: inline-block;
+            list-style: none
+        }
+    }
+}
+
+
+/*--------------*\
+  $MEDIA
+\*--------------*/
+
+.media {
+    @extend %group;
+    padding-left: 0;
+    list-style: none;   
+}

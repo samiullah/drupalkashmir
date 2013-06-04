@@ -1,0 +1,54 @@
+* { 
+  @include box-sizing(border-box);
+}
+
+html {
+  background: white;
+  font-size: 100%;
+  -webkit-overflow-scrolling: touch;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-y:scroll
+}
+
+body {
+  width: 100%;
+  background-color: transparent;
+  font-family: $sans-serif;
+  line-height: 1.5;
+  color: #000;
+}
+
+a {
+  @include transition(all .25s ease-in);
+  color: $brand;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active{
+    text-decoration: underline;
+  }
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6, hgroup, blockquote, p, address, table, fieldset, figure, pre {
+  margin-top: .25em;
+  margin-bottom: .75em;
+}
+
+ul {
+  padding-left: 1.125em;
+  margin: 1em 0;
+}
+
+li {
+  margin-top: .25em;
+  margin-bottom: .5em;
+}
