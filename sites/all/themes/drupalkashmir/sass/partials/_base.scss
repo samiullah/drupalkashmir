@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
 * { 
   @include box-sizing(border-box);
 }
@@ -21,7 +23,7 @@ body {
 
 a {
   @include transition(all .25s ease-in);
-  color: $brand;
+  // color: $brand;
   text-decoration: none;
 
   &:hover,

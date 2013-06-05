@@ -1,1 +1,58 @@
+/*------------------------------------*\
+    $IMPORTS
+\*------------------------------------*/
+
+/*--------------*\
+    $FRAMEWORK
+\*--------------*/
 @import "compass";
+@import "partials/normalize";
+@import "partials/helper";
+@import "partials/patterns";
+
+
+/*--------------*\
+    $MIXINS
+\*--------------*/
+@import "partials/mixins";
+
+
+/*--------------*\
+    $VARIABLES
+\*--------------*/
+@import "partials/color";
+@import "partials/typography";
+@import "partials/fontawesome";
+
+/*--------------*\
+    $BASE
+\*--------------*/
+@import "partials/base";
+
+
+/*--------------*\
+    $LAYOUT
+\*--------------*/
+@import "partials/grids";
+@import "partials/patterns";
+
+
+/*--------------*\
+    $EXTENSIONS
+\*--------------*/
+@import "sections/header";
+// @import "extensions/footer";
+// @import "extensions/global";
+// @import "extensions/sidebar";
+// @import "extensions/home";
+// @import "extensions/blog";
+// @import "extensions/services";
+// @import "extensions/team";
+// @import "extensions/clients";
+// @import "extensions/partners";
+
+/*--------------*\
+    $MQ
+\*--------------*/
+@import "partials/mediaqueries";
+

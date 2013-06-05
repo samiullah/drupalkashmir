@@ -10,25 +10,21 @@
 
  <?php print $mothership_poorthemers_helper; ?>
   <header role="banner">
-  <div class="siteinfo">
-    <?php if ($logo): ?>
-      <figure>
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-      </a>
-      </figure>
-    <?php endif; ?>
+  <div class="navbar">
 
-    <?php if($site_name OR $site_slogan ): ?>
-    <hgroup>
-      <?php if($site_name): ?>
-        <h1 class="sitename"><?php print $site_name; ?></h1>
+    <div class="navbar__logo">
+      <?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
+          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        </a>
       <?php endif; ?>
-      <?php if ($site_slogan): ?>
-        <h2><?php print $site_slogan; ?></h2>
-      <?php endif; ?>
-    </hgroup>
-    <?php endif; ?>
+
+    </div>
+
+    <div class="navbar__menu--button">
+      <i class="navbar--search icon-search"></i>
+      <i class="navbar--menu icon-reorder"></i>
+    </div>
   </div>
 
   <?php if($page['header']): ?>

@@ -47,7 +47,7 @@ stylesheets[all][] = stylesheets/screen.css
 ;stylesheets[all][] = donteverloadmeagain.css
 
 ;-------------- JS -------------
-scripts[] = js/script.js
+scripts[] = javascript/custom.js
 
 ;-------------- Default Mothership Settings  -------------
 settings[mothership_rebuild_registry] = 0

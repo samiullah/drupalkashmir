@@ -1,0 +1,65 @@
+header[role="banner"] {
+    @extend %group; 
+}
+
+.navbar {
+    @extend %group; 
+}
+.navbar__logo {
+    @extend %one-half;
+    @extend %f-left;
+}
+
+.navbar__menu--button {
+    @extend %one-half;
+    @extend %f-right;
+    @extend %a-right;
+
+    i {
+        @extend %is-inline-block;
+        @include font-size(24);
+        cursor: pointer;
+    }
+}
+
+
+nav[role="navigation"] {
+    @extend .is-hidden;
+    
+    ul {
+        @extend .media;
+        @include font-size(13); 
+        margin: 0;
+    }
+
+    li {
+        @extend %a-center;
+        margin: 0;
+        line-height: 2.5em;
+
+        a {
+            @extend %is-block;
+            text-decoration: none;
+        }
+    }
+}
+
+#block-search-form {
+    @extend .is-hidden;
+
+    input {
+        @extend %one-whole;
+    }
+}
+
+.form-item-search-block-form {
+    @extend %seven-tenth;
+    @extend %f-left;
+    margin: 0;
+}
+
+#edit-actions {
+    @extend %three-tenth;
+    @extend %f-right;
+    margin: 0;
+}
