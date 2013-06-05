@@ -2321,9 +2321,10 @@ nav[role="navigation"] li a {
 }
 
 #block-search-form input {
+  color: black;
   border-radius: 0;
   padding: .5em;
-  color: black;
+  border: 0;
 }
 #block-search-form #edit-submit {
   background: #302831;

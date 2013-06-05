@@ -70,9 +70,10 @@ nav[role="navigation"] {
 
     input {
         @extend %one-whole;
+        color: $black;
         border-radius: 0;
         padding: .5em;
-        color: $black;
+        border: 0;
     }
 
     #edit-submit {
