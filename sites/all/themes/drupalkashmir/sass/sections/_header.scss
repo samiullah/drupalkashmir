@@ -26,7 +26,7 @@ header[role="banner"] {
 
     i {
         @extend %is-inline-block;
-        @include font-size(24);
+        @include font-size(20);
         cursor: pointer;
         line-height: 42px;
         color: #FFF;
@@ -44,6 +44,7 @@ nav[role="navigation"] {
         @extend .media;
         @include font-size(13); 
         margin: 0;
+        background: #302831;
     }
 
     li {
@@ -54,6 +55,10 @@ nav[role="navigation"] {
         a {
             @extend %is-block;
             text-decoration: none;
+            color: #FFF;
+            text-transform: uppercase;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+            box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
         }
     }
 }

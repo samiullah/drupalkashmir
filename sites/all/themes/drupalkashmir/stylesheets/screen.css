@@ -2290,8 +2290,8 @@ li {
 }
 
 .navbar__menu--button i {
-  font-size: 24px;
-  font-size: 1.5rem;
+  font-size: 20px;
+  font-size: 1.25rem;
   cursor: pointer;
   line-height: 42px;
   color: #FFF;
@@ -2304,6 +2304,7 @@ nav[role="navigation"] ul {
   font-size: 13px;
   font-size: 0.8125rem;
   margin: 0;
+  background: #302831;
 }
 nav[role="navigation"] li {
   margin: 0;
@@ -2311,6 +2312,10 @@ nav[role="navigation"] li {
 }
 nav[role="navigation"] li a {
   text-decoration: none;
+  color: #FFF;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
 .form-item-search-block-form {
