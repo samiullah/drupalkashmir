@@ -7,7 +7,7 @@ header[role="banner"] {
     @include background(linear-gradient(#F8756A, #CC2317));
     @include box-shadow(inset 0 1px 0 rgba(white, 0.36));
     position: relative;
-    height: 42px;
+    height: 42px;   
     border-top: 1px solid #F8756A;
 }
 
