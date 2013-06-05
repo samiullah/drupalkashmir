@@ -2279,13 +2279,14 @@ li {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36);
   position: relative;
-  height: 42px;
+  height: 43px;
   border-top: 1px solid #F8756A;
+  z-index: 9;
 }
 
 .navbar__logo {
   position: absolute;
-  opacity: .85;
+  opacity: .95;
 }
 
 .navbar__menu--button i {
