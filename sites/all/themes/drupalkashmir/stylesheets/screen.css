@@ -2304,11 +2304,13 @@ nav[role="navigation"] ul {
   font-size: 13px;
   font-size: 0.8125rem;
   margin: 0;
+  padding: 0;
   background: #302831;
+  list-style: none;
 }
 nav[role="navigation"] li {
   margin: 0;
-  line-height: 2.5em;
+  line-height: 2.75em;
 }
 nav[role="navigation"] li a {
   text-decoration: none;
@@ -2318,12 +2320,24 @@ nav[role="navigation"] li a {
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
 }
 
+#block-search-form input {
+  border-radius: 0;
+  padding: .5em;
+  color: black;
+}
+#block-search-form #edit-submit {
+  background: #302831;
+  color: white;
+}
+
 .form-item-search-block-form {
   margin: 0;
+  line-height: 1;
 }
 
 #edit-actions {
   margin: 0;
+  line-height: 1;
 }
 
 /*--------------*\

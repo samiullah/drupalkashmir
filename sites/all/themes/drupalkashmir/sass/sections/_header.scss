@@ -44,13 +44,15 @@ nav[role="navigation"] {
         @extend .media;
         @include font-size(13); 
         margin: 0;
+        padding: 0;
         background: #302831;
+        list-style: none;
     }
 
     li {
         @extend %a-center;
         margin: 0;
-        line-height: 2.5em;
+        line-height: 2.75em;
 
         a {
             @extend %is-block;
@@ -68,6 +70,14 @@ nav[role="navigation"] {
 
     input {
         @extend %one-whole;
+        border-radius: 0;
+        padding: .5em;
+        color: $black;
+    }
+
+    #edit-submit {
+        background: #302831;
+        color: $white;
     }
 }
 
@@ -75,12 +85,14 @@ nav[role="navigation"] {
     @extend %seven-tenth;
     @extend %f-left;
     margin: 0;
+    line-height: 1;
 }
 
 #edit-actions {
     @extend %three-tenth;
     @extend %f-right;
     margin: 0;
+    line-height: 1;
 }
 
 
