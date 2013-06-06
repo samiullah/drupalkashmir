@@ -2346,15 +2346,10 @@ nav[role="navigation"] li a {
   display: inline-block;
 }
 
-/*.views-field-field-slide-image
-    {
-        .field-content
-        {
-            position : absolute;
+.views-field-field-slide-image .field-content {
+  position: absolute;
+}
 
-
-        }
-    }*/
 .views-field-field-slide-text .field-content {
   background: blue;
   width: 25%;
@@ -2372,6 +2367,7 @@ nav[role="navigation"] li a {
   opacity: 0.9;
   padding-left: 19px;
   width: 220px;
+  position: absolute;
 }
 .views-field-field-event-text-image .field-content p:nth-child(1) {
   float: left;
