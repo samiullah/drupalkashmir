@@ -8,7 +8,12 @@
 
 .views-field-field-slide-image
     {
-        //field
+        .field-content
+        {
+            position : absolute;
+
+
+        }
     }
 
 .views-field-field-slide-text
