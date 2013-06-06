@@ -1,0 +1,66 @@
+//slideshow container//
+.view-dom-id-fcfc66bd1e8e78a384b3d3ebf8dd2644
+    {
+       position: relative;
+       display: inline-block;
+
+    }
+
+.views-field-field-slide-image
+    {
+        field
+    }
+
+.views-field-field-slide-text
+    {
+        .field-content
+        {
+        background: blue;
+        width: 25%;
+        font-size: 25px;
+        position: absolute;
+        margin-top: 131px;
+        margin-left: 6em;
+        }
+    }
+
+.views-field-field-event-text-image
+    {
+        .field-content
+        {
+            margin-left: 1060px;
+            display: block;
+            background: grey;
+            margin-top: 62px;
+            opacity: 0.9;
+            padding-left: 19px;
+            width: 220px;
+
+
+
+        p:nth-child(1)
+                    {
+                        float: left;
+                        clear: both;
+                        color: white;
+                        font-size: 26px;
+                    }
+        p:nth-child(2)
+                   {    float: left;
+                        color: pink;
+                        clear: both;
+                   }
+        p:nth-child(3){
+                        float: left;
+
+
+
+                        img{
+                            float: right;
+                            display: inline;
+                            margin-top: -42px;
+                        }
+                 }
+        }
+
+    }
