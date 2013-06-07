@@ -2350,6 +2350,14 @@ nav[role="navigation"] li a {
   right: 0px;
 }
 
+.views-field-field-slide-text .field-content {
+  position: absolute;
+  background: grey;
+  width: 318px;
+  top: 133px;
+  left: 100px;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
