@@ -2379,6 +2379,15 @@ nav[role="navigation"] li a {
   font-weight: bold;
 }
 
+.views_slideshow_slide {
+  max-width: 100% !important;
+  width: 100% !Important;
+}
+
+#views_slideshow_cycle_teaser_section_home_slideshow-block {
+  max-width: 100% !important;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
