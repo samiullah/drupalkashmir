@@ -2357,6 +2357,10 @@ nav[role="navigation"] li a {
   float: left;
   clear: both;
 }
+.views-field-field-event-text-image .field-content p:nth-child(3) img {
+  float: right;
+  margin-top: -23px;
+}
 
 .views-field-field-slide-text .field-content {
   position: absolute;
