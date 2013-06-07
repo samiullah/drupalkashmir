@@ -2352,10 +2352,10 @@ nav[role="navigation"] li a {
 
 .views-field-field-slide-text .field-content {
   position: absolute;
-  background: grey;
   width: 318px;
-  top: 133px;
+  top: 73px;
   left: 100px;
+  color: whitesmoke;
 }
 
 /*--------------*\
