@@ -2346,10 +2346,17 @@ nav[role="navigation"] li a {
   display: inline-block;
 }
 
-.views-field-field-slide-image .field-content {
-  position: relative;
-}
+/*.views-field-field-slide-image
+    {
+        .field-content
+        {
+            position : relative;
 
+
+        }
+    }
+
+*/
 .views-field-field-slide-text .field-content {
   background: blue;
   width: 25%;
