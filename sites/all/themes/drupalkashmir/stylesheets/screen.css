@@ -2352,6 +2352,9 @@ nav[role="navigation"] li a {
 }
 .views-field-field-event-text-image .field-content p:nth-child(1) {
   float: left;
+  color: whiteSmoke;
+  font-size: 36px;
+  line-height: 1;
 }
 .views-field-field-event-text-image .field-content p:nth-child(2) {
   float: left;
