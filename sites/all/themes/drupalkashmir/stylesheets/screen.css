@@ -2367,6 +2367,9 @@ nav[role="navigation"] li a {
 .views-field-field-event-text-image .field-content p:nth-child(3) {
   clear: both;
   float: left;
+  font-size: 23px;
+  margin-top: -12px;
+  color: #F8576A;
 }
 .views-field-field-event-text-image .field-content p:nth-child(4) img {
   float: right;
