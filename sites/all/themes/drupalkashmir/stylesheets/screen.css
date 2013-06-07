@@ -2341,6 +2341,15 @@ nav[role="navigation"] li a {
   line-height: 1;
 }
 
+.views-field-field-event-text-image .field-content {
+  width: 200px;
+  position: absolute;
+  top: 64px;
+  background: grey;
+  padding-left: 20px;
+  right: 0px;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
