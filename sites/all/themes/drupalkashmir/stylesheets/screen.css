@@ -2360,9 +2360,13 @@ nav[role="navigation"] li a {
   float: left;
   clear: both;
 }
+.views-field-field-event-text-image .field-content p:nth-child(3) {
+  clear: both;
+  float: left;
+}
 .views-field-field-event-text-image .field-content p:nth-child(4) img {
   float: right;
-  margin-top: -23px;
+  margin-top: -69px;
 }
 
 .views-field-field-slide-text .field-content {

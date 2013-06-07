@@ -27,13 +27,18 @@
             clear:both;
         }
 
+        p:nth-child(3)
+        {
+            clear: both;
+            float: left;
+        }
 
         p:nth-child(4)
         {
             img
             {
                float: right;
-               margin-top:-23px;
+               margin-top:-69px;
             }
         }
     }
