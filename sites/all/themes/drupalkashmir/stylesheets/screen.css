@@ -2356,6 +2356,8 @@ nav[role="navigation"] li a {
   top: 73px;
   left: 100px;
   color: whitesmoke;
+  font-size: 36px;
+  font-weight: bold;
 }
 
 /*--------------*\
