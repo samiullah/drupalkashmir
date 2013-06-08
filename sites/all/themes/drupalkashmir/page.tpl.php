@@ -40,6 +40,7 @@
 
   <div role="main" id="#main-content">
 
+   <?php if(drupal_is_front_page()) {unset($page['content']['system_main']['default_message']);} ?>
 
 
 
