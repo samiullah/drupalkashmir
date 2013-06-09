@@ -2412,6 +2412,16 @@ footer[role="contentinfo"] {
 #block-block-5 li {
   list-style-type: none;
 }
+#block-block-5 p:nth-child(1) {
+  padding-top: 51px;
+  font-size: 1.5em;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03125em;
+  line-height: 1em;
+  margin-bottom: 0.8em;
+}
 
 /*--------------*\
     $MQ
