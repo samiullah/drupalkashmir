@@ -2409,6 +2409,9 @@ footer[role="contentinfo"] {
   margin-left: 117px;
   color: whiteSmoke;
 }
+#block-block-5 li {
+  list-style-type: none;
+}
 
 /*--------------*\
     $MQ
