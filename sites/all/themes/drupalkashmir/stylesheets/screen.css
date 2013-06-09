@@ -2403,15 +2403,16 @@ footer[role="contentinfo"] {
   background: #F5876A;
   height: 351px;
 }
-footer[role="contentinfo"] .contextual-links-region {
+
+.contextual-links-region {
   width: 46%;
   margin-left: 117px;
   color: whiteSmoke;
 }
-footer[role="contentinfo"] .contextual-links-region li {
+.contextual-links-region li {
   list-style-type: none;
 }
-footer[role="contentinfo"] .contextual-links-region p:nth-child(1) {
+.contextual-links-region p:nth-child(1) {
   padding-top: 51px;
   font-size: 1.5em;
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;
