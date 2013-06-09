@@ -2404,15 +2404,15 @@ footer[role="contentinfo"] {
   height: 351px;
 }
 
-#block-block-5 {
+.contextual-links-region {
   width: 46%;
   margin-left: 117px;
   color: whiteSmoke;
 }
-#block-block-5 li {
+.contextual-links-region li {
   list-style-type: none;
 }
-#block-block-5 p {
+.contextual-links-region p:nth-child(1) {
   padding-top: 51px;
   font-size: 1.5em;
   font-family: "Maven Pro", Helvetica, Arial, sans-serif;

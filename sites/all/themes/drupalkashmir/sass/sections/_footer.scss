@@ -6,7 +6,7 @@ footer[role="contentinfo"]
 
     }
 
-#block-block-5 /*block for contact us */
+.contextual-links-region/*class for contact us */
 
     {
 
@@ -26,7 +26,7 @@ footer[role="contentinfo"]
 
         }
 
-        p
+        p:nth-child(1)
         {
             padding-top: 51px;
             font-size: 1.5em;
