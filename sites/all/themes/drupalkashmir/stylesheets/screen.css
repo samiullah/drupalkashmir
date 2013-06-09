@@ -2399,6 +2399,17 @@ support rgba */
   max-width: 100% !important;
 }
 
+footer[role="contentinfo"] {
+  background: #F5876A;
+  height: 351px;
+}
+
+#block-block-5 {
+  width: 46%;
+  margin-left: 117px;
+  color: whiteSmoke;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
