@@ -2455,6 +2455,16 @@ footer[role="contentinfo"] {
   margin-left: 117px;
   color: whiteSmoke;
 }
+#block-block-10 h2 {
+  padding-top: 51px;
+  font-size: 1.5em;
+  font-family: "Maven Pro", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.03125em;
+  line-height: 1em;
+  margin-bottom: 0.8em;
+}
 
 .primary_footer {
   background: #3C3C3B;
