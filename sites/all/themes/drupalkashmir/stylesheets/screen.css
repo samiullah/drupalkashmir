@@ -2472,6 +2472,10 @@ footer[role="contentinfo"] {
   margin-top: 16px;
 }
 
+a {
+  color: grey;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
