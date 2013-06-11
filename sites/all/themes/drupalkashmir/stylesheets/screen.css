@@ -2433,6 +2433,11 @@ footer[role="contentinfo"] {
   display: none;
 }
 
+#edit-mailchimp-lists-mailchimp-drupal-kashmir-newsletter-title {
+  color: whiteSmoke;
+  font-size: 18px;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
