@@ -2456,6 +2456,12 @@ footer[role="contentinfo"] {
   color: whiteSmoke;
 }
 
+.primary-footer {
+  background: #3C3C3B;
+  height: 265px;
+  margin-top: 16px;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
