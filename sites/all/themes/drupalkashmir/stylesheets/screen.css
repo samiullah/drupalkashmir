@@ -2438,6 +2438,10 @@ footer[role="contentinfo"] {
   font-size: 18px;
 }
 
+.required {
+  color: whitesmoke;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
