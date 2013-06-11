@@ -2442,6 +2442,13 @@ footer[role="contentinfo"] {
   color: whitesmoke;
 }
 
+#block-block-5 {
+  width: 46%;
+  margin-left: 117px;
+  color: whiteSmoke;
+  background: #3C3C3B;
+}
+
 /*--------------*\
     $MQ
 \*--------------*/
