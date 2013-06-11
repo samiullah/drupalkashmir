@@ -2422,6 +2422,9 @@ footer[role="contentinfo"] {
   line-height: 1em;
   margin-bottom: 0.8em;
 }
+#block-block-5 #block-mailchimp-lists-drupal-kashmir-newsletter .title {
+  display: none;
+}
 
 /*--------------*\
     $MQ
