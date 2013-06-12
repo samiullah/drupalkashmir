@@ -2397,6 +2397,7 @@ support rgba */
 
 #views_slideshow_cycle_teaser_section_home_slideshow-block {
   max-width: 100% !important;
+  margin-bottom: -27px;
 }
 
 footer[role="contentinfo"] {
