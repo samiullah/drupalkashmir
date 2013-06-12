@@ -2402,6 +2402,7 @@ support rgba */
 footer[role="contentinfo"] {
   background: #F5876A;
   height: 533px;
+  margin: -7px;
 }
 
 #block-block-5 {
@@ -2474,6 +2475,15 @@ footer[role="contentinfo"] {
 
 a {
   color: grey;
+}
+
+#block-block-10 {
+  width: 30%;
+  float: right;
+  bottom: 235px;
+}
+#block-block-10 li {
+  list-style-type: none;
 }
 
 /*--------------*\
