@@ -2400,6 +2400,11 @@ support rgba */
   margin-bottom: -27px;
 }
 
+#block-block-12 {
+  width: 20%;
+  padding-left: 117px;
+}
+
 footer[role="contentinfo"] {
   background: #F5876A;
   height: 533px;
