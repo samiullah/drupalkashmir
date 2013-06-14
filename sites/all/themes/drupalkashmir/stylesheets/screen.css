@@ -2402,7 +2402,14 @@ support rgba */
 
 #block-block-12 {
   width: 30%;
-  padding-left: 117px;
+  margin-left: 117px;
+}
+
+#block-block-13 {
+  width: 30%;
+  top: -272px;
+  float: right;
+  right: 397px;
 }
 
 footer[role="contentinfo"] {
@@ -2487,6 +2494,7 @@ a {
   width: 30%;
   float: right;
   bottom: 235px;
+  clear: both;
 }
 #block-block-11 li {
   list-style-type: none;
