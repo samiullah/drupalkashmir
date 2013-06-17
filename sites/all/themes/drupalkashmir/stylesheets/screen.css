@@ -2419,6 +2419,12 @@ support rgba */
   left: 424px;
 }
 
+#block-views-drupal-news-block {
+  width: 30%;
+  border-right: grey solid;
+  margin-left: 117px;
+}
+
 footer[role="contentinfo"] {
   background: #F5876A;
   height: 533px;
