@@ -23,10 +23,12 @@ features[] = comment_user_verification
 ;-- Required Regions
 regions[page_top] = Page Top
 regions[content] = Content
+
 regions[page_bottom] = Page Bottom
 
 ;-- Core Regions
 regions[header] = Header
+regions[primary_content] = Primary Content
 regions[primary_footer] = Primary Footer
 regions[footer] = Footer
 regions[sidebar_first] = Sidebar First
