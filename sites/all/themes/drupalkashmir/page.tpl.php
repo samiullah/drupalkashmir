@@ -66,9 +66,9 @@
     <?php endif; ?>
 
 
-  <?php if ($page['primary_content']): ?>
-      <div class="primary_content">
-        <?php print render($page['primary_content']); ?>
+  <?php if ($page['primary']): ?>
+      <div class="primary">
+        <?php print render($page['primary']); ?>
       </div> <!-- /.primary_content-->
     <?php endif; ?>
 
