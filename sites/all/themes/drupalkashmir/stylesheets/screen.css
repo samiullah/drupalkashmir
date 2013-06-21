@@ -2425,6 +2425,14 @@ support rgba */
   margin-left: 117px;
 }
 
+#block-views-code-karate-block {
+  width: 30%;
+  display: inline-block;
+  float: right;
+  bottom: 228px;
+  right: -66px;
+}
+
 footer[role="contentinfo"] {
   background: #F5876A;
   height: 533px;
@@ -2508,6 +2516,7 @@ a {
   float: right;
   bottom: 235px;
   clear: both;
+  margin-top: -240px;
 }
 #block-block-11 li {
   list-style-type: none;
