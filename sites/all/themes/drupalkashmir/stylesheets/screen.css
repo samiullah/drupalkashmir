@@ -2400,37 +2400,8 @@ support rgba */
   margin-bottom: -27px;
 }
 
-#block-block-12 {
-  width: 30%;
-  margin-left: 117px;
-}
-
-#block-block-13 {
-  width: 34%;
-  top: -223px;
-  float: right;
-  right: 329px;
-}
-
-#block-block-14 {
-  width: 20%;
-  float: right;
-  bottom: 218px;
-  left: 424px;
-}
-
-#block-views-drupal-news-block {
-  width: 30%;
-  border-right: grey solid;
-  margin-left: 117px;
-}
-
-#block-views-code-karate-block {
-  width: 30%;
-  display: inline-block;
-  float: right;
-  bottom: 228px;
-  right: -66px;
+#panels-ipe-display-panel-context-page-home-page-home-panel-context {
+  margin: 117px;
 }
 
 footer[role="contentinfo"] {
