@@ -362,19 +362,16 @@ h1, h2, h3, h4, h5, h6, hgroup, ul, ol, dl, li, blockquote, p, address, table, f
 /*--------------*\
   $CLEARFIX
 \*--------------*/
-.media:before, nav[role="navigation"] ul:before, .grid:before, header[role="banner"]:before, .navbar:before,
+.media:before, .grid:before,
 .media:after,
-nav[role="navigation"] ul:after,
-.grid:after,
-header[role="banner"]:after,
-.navbar:after {
+.grid:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */
 }
 
-.media:after, nav[role="navigation"] ul:after, .grid:after, header[role="banner"]:after, .navbar:after {
+.media:after, .grid:after {
   clear: both;
 }
 
@@ -384,36 +381,12 @@ header[role="banner"]:after,
 /*--------------*\
   $DISPLAY
 \*--------------*/
-nav[role="navigation"] li a {
-  display: block;
-}
-
-.navbar__menu--button i {
-  display: inline-block;
-}
-
 /*--------------*\
   $FLOAT
 \*--------------*/
-.navbar__menu--button, #edit-actions {
-  float: right;
-}
-
-.navbar__logo, .form-item-search-block-form {
-  float: left;
-}
-
 /*--------------*\
   $ALIGN
 \*--------------*/
-.navbar__menu--button {
-  text-align: right;
-}
-
-nav[role="navigation"] li {
-  text-align: center;
-}
-
 /*--------------*\
   $STATE
 \*--------------*/
@@ -421,7 +394,7 @@ nav[role="navigation"] li {
   display: block !important;
 }
 
-.is-hidden, nav[role="navigation"], #block-search-form {
+.is-hidden {
   display: none;
 }
 
@@ -435,7 +408,7 @@ nav[role="navigation"] li {
 /*--------------*\
   $MEDIA
 \*--------------*/
-.media, nav[role="navigation"] ul {
+.media {
   padding-left: 0;
   list-style: none;
 }
@@ -2221,14 +2194,6 @@ li {
 /*--------------*\
     $1/2
 \*--------------*/
-#block-search-form input {
-  width: 100%;
-}
-
-.navbar__logo, .navbar__menu--button {
-  width: 50%;
-}
-
 /*--------------*\
     $1/3
 \*--------------*/
@@ -2247,21 +2212,13 @@ li {
 /*--------------*\
     $1/10
 \*--------------*/
-#edit-actions {
-  width: 30%;
-}
-
-.form-item-search-block-form {
-  width: 70%;
-}
-
 /*--------------*\
   $H-NAV
 \*--------------*/
 /*--------------*\
   $MEDIA
 \*--------------*/
-.media, nav[role="navigation"] ul {
+.media {
   padding-left: 0;
   list-style: none;
 }
@@ -2269,78 +2226,6 @@ li {
 /*--------------*\
     $EXTENSIONS
 \*--------------*/
-.navbar {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8756a), color-stop(100%, #cc2317));
-  background: -webkit-linear-gradient(#f8756a, #cc2317);
-  background: -moz-linear-gradient(#f8756a, #cc2317);
-  background: -o-linear-gradient(#f8756a, #cc2317);
-  background: linear-gradient(#f8756a, #cc2317);
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36);
-  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.36);
-  position: relative;
-  height: 43px;
-  border-top: 1px solid #F8756A;
-  z-index: 9;
-}
-
-.navbar__logo {
-  position: absolute;
-  opacity: .95;
-}
-
-.navbar__menu--button i {
-  font-size: 20px;
-  font-size: 1.25rem;
-  cursor: pointer;
-  line-height: 42px;
-  color: #FFF;
-  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
-  width: 2em;
-  text-align: center;
-}
-
-nav[role="navigation"] ul {
-  font-size: 13px;
-  font-size: 0.8125rem;
-  margin: 0;
-  padding: 0;
-  background: #302831;
-  list-style: none;
-}
-nav[role="navigation"] li {
-  margin: 0;
-  line-height: 2.75em;
-}
-nav[role="navigation"] li a {
-  text-decoration: none;
-  color: #FFF;
-  text-transform: uppercase;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.29);
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
-}
-
-#block-search-form input {
-  color: black;
-  border-radius: 0;
-  padding: .5em;
-  border: 0;
-}
-#block-search-form #edit-submit {
-  background: #302831;
-  color: white;
-}
-
-.form-item-search-block-form {
-  margin: 0;
-  line-height: 1;
-}
-
-#edit-actions {
-  margin: 0;
-  line-height: 1;
-}
-
 .views-field-field-event-text-image .field-content {
   width: 300px;
   position: absolute;
