@@ -9,6 +9,11 @@
 <?php } ?>
 
  <?php print $mothership_poorthemers_helper; ?>
+
+
+
+<div class="page">
+
   <header role="banner">
   <div class="navbar">
 
@@ -34,9 +39,6 @@
   <?php endif; ?>
 
 </header>
-
-
-<div class="page">
 
   <div role="main" id="#main-content">
 
