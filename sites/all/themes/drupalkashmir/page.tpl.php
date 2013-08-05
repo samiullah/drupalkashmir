@@ -26,11 +26,7 @@
 
     </div>
 
-    <div class="navbar__menu--button">
-      <i class="navbar--search icon-search"></i>
-      <i class="navbar--menu icon-reorder"></i>
-    </div>
-  </div>
+
 
   <?php if($page['header']): ?>
     <div class="header-region">
