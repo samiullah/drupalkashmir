@@ -2229,6 +2229,7 @@ li {
 ul li.leaf {
   list-style-image: none;
   list-style-type: none;
+  float: left;
 }
 
 .views-field-field-event-text-image .field-content {
